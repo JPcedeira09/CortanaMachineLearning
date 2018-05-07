@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="GraficoObjetivosTableViewCell" rowHeight="234" id="KGk-i7-Jjw" customClass="GraficoObjetivosTableViewCell" customModule="CortanaMachineLearning" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="234"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="233.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VdQ-8x-6Zu">
+                        <rect key="frame" x="68.5" y="11" width="183" height="183"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grafico" translatesAutoresizingMaskIntoConstraints="NO" id="GcK-tP-gMw">
+                                <rect key="frame" x="0.0" y="0.0" width="183" height="183"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="183" id="oLP-f5-WXg"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="GcK-tP-gMw" secondAttribute="bottom" id="7Fj-93-1X7"/>
+                            <constraint firstItem="GcK-tP-gMw" firstAttribute="top" secondItem="VdQ-8x-6Zu" secondAttribute="top" id="Eie-fv-hvw"/>
+                            <constraint firstItem="GcK-tP-gMw" firstAttribute="leading" secondItem="VdQ-8x-6Zu" secondAttribute="leading" id="SKw-ZP-Ln4"/>
+                            <constraint firstAttribute="trailing" secondItem="GcK-tP-gMw" secondAttribute="trailing" id="e8b-C4-BZC"/>
+                            <constraint firstAttribute="width" constant="183" id="lLR-Ic-aKh"/>
+                            <constraint firstItem="GcK-tP-gMw" firstAttribute="top" secondItem="VdQ-8x-6Zu" secondAttribute="top" id="lXx-WM-K7A"/>
+                            <constraint firstAttribute="height" constant="183" id="x1y-Aa-HDO"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meta: Quero gastar R$ 3.000,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcY-15-gQg">
+                        <rect key="frame" x="16" y="202" width="288" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="wK5-Wb-MLh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VdQ-8x-6Zu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="2Ig-S1-kh3"/>
+                    <constraint firstItem="dcY-15-gQg" firstAttribute="top" secondItem="VdQ-8x-6Zu" secondAttribute="bottom" constant="8" id="ABy-pS-7ow"/>
+                    <constraint firstItem="dcY-15-gQg" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="caF-aq-VhP"/>
+                    <constraint firstItem="dcY-15-gQg" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="mWe-Kw-V2l"/>
+                    <constraint firstItem="VdQ-8x-6Zu" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="uof-if-DuK"/>
+                    <constraint firstItem="dcY-15-gQg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="ydY-on-cuR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="txtLabel" destination="dcY-15-gQg" id="ggH-e8-YU8"/>
+                <outlet property="viewGrafico" destination="VdQ-8x-6Zu" id="BD1-mJ-L54"/>
+            </connections>
+            <point key="canvasLocation" x="91" y="149"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="grafico" width="492" height="415"/>
+    </resources>
+</document>

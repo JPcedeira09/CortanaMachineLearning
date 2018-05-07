@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CategoriasGastosTableViewCell" rowHeight="70" id="KGk-i7-Jjw" customClass="CategoriasGastosTableViewCell" customModule="CortanaMachineLearning" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="286" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cashflow" translatesAutoresizingMaskIntoConstraints="NO" id="gCL-Ug-DKe">
+                        <rect key="frame" x="6" y="21" width="28" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="28" id="ODp-pn-bm9"/>
+                            <constraint firstAttribute="height" constant="28" id="ptA-9Y-7Dw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resgate de Investimentos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FpG-JK-QoA">
+                        <rect key="frame" x="44" y="11" width="158" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="AEy-ny-Kad"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FcI-7U-NX9">
+                        <rect key="frame" x="206" y="11" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="2w9-bG-HLw"/>
+                            <constraint firstAttribute="width" constant="15" id="4Dn-Uh-qKP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40.500,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yI3-kO-zzZ">
+                        <rect key="frame" x="221" y="11" width="65" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="65" id="bZO-Rl-F6Z"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FcI-7U-NX9" firstAttribute="leading" secondItem="FpG-JK-QoA" secondAttribute="trailing" constant="4" id="0xH-ez-Exb"/>
+                    <constraint firstItem="FpG-JK-QoA" firstAttribute="leading" secondItem="gCL-Ug-DKe" secondAttribute="trailing" constant="10" id="2GE-iP-5BR"/>
+                    <constraint firstItem="FpG-JK-QoA" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="9Qv-PZ-0QS"/>
+                    <constraint firstItem="yI3-kO-zzZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Ohw-FW-2tt"/>
+                    <constraint firstItem="yI3-kO-zzZ" firstAttribute="leading" secondItem="FcI-7U-NX9" secondAttribute="trailing" id="X0D-dq-MPj"/>
+                    <constraint firstItem="FcI-7U-NX9" firstAttribute="top" secondItem="yI3-kO-zzZ" secondAttribute="top" id="ckm-f2-ByR"/>
+                    <constraint firstItem="gCL-Ug-DKe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-10" id="hJm-8p-XNc"/>
+                    <constraint firstItem="FpG-JK-QoA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="pDz-MZ-41Q"/>
+                    <constraint firstItem="gCL-Ug-DKe" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="xd5-Xb-goH"/>
+                    <constraint firstItem="yI3-kO-zzZ" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="yL1-Sf-ieD"/>
+                    <constraint firstAttribute="trailing" secondItem="yI3-kO-zzZ" secondAttribute="trailing" id="zo7-Ab-DAX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageCategoria" destination="gCL-Ug-DKe" id="ohQ-uD-RX0"/>
+                <outlet property="nomeCategoria" destination="FpG-JK-QoA" id="UQi-fR-392"/>
+                <outlet property="valorCategoria" destination="yI3-kO-zzZ" id="xJ9-E4-1Fc"/>
+            </connections>
+            <point key="canvasLocation" x="91" y="67"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cashflow" width="25" height="25"/>
+    </resources>
+</document>

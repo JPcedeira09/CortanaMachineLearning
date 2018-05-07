@@ -7,7 +7,25 @@
 		<key>CortanaMachineLearning.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>101CF84E209A3CEC00275484</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>101CF865209A3CEE00275484</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>101CF870209A3CEE00275484</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

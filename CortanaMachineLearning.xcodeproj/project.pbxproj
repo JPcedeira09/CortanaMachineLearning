@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101197F0209CF15A00770997 /* PessoasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101197EF209CF15A00770997 /* PessoasViewController.swift */; };
+		101197F4209CF63A00770997 /* PessoasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101197F2209CF63A00770997 /* PessoasTableViewCell.swift */; };
+		101197F5209CF63A00770997 /* PessoasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101197F3209CF63A00770997 /* PessoasTableViewCell.xib */; };
 		101CF853209A3CEC00275484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF852209A3CEC00275484 /* AppDelegate.swift */; };
 		101CF855209A3CEC00275484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF854209A3CEC00275484 /* ViewController.swift */; };
 		101CF858209A3CEC00275484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101CF856209A3CEC00275484 /* Main.storyboard */; };
@@ -15,6 +18,28 @@
 		101CF860209A3CEE00275484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101CF85E209A3CEE00275484 /* LaunchScreen.storyboard */; };
 		101CF86B209A3CEE00275484 /* CortanaMachineLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF86A209A3CEE00275484 /* CortanaMachineLearningTests.swift */; };
 		101CF876209A3CEE00275484 /* CortanaMachineLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF875209A3CEE00275484 /* CortanaMachineLearningUITests.swift */; };
+		101CF889209A546400275484 /* MesesCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF887209A546400275484 /* MesesCellTableViewCell.swift */; };
+		101CF88A209A546400275484 /* MesesCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101CF888209A546400275484 /* MesesCellTableViewCell.xib */; };
+		101CF88E209A55FE00275484 /* SaudeFinanceiraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF88C209A55FE00275484 /* SaudeFinanceiraTableViewCell.swift */; };
+		101CF88F209A55FE00275484 /* SaudeFinanceiraTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101CF88D209A55FE00275484 /* SaudeFinanceiraTableViewCell.xib */; };
+		101CF892209A588D00275484 /* ResultadoMesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF890209A588D00275484 /* ResultadoMesTableViewCell.swift */; };
+		101CF893209A588D00275484 /* ResultadoMesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101CF891209A588D00275484 /* ResultadoMesTableViewCell.xib */; };
+		101CF898209A952D00275484 /* RebimentoMesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF896209A952D00275484 /* RebimentoMesTableViewCell.swift */; };
+		101CF899209A952D00275484 /* RebimentoMesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101CF897209A952D00275484 /* RebimentoMesTableViewCell.xib */; };
+		101CF89D209A96E700275484 /* CategoriasGastosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF89B209A96E700275484 /* CategoriasGastosTableViewCell.swift */; };
+		101CF89E209A96E700275484 /* CategoriasGastosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101CF89C209A96E700275484 /* CategoriasGastosTableViewCell.xib */; };
+		101CF8A2209B48AB00275484 /* FicouComDuvidasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF8A0209B48AB00275484 /* FicouComDuvidasTableViewCell.swift */; };
+		101CF8A3209B48AB00275484 /* FicouComDuvidasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101CF8A1209B48AB00275484 /* FicouComDuvidasTableViewCell.xib */; };
+		101CF8AF209B874700275484 /* HeadObjetivosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF8AD209B874700275484 /* HeadObjetivosTableViewCell.swift */; };
+		101CF8B0209B874800275484 /* HeadObjetivosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101CF8AE209B874700275484 /* HeadObjetivosTableViewCell.xib */; };
+		101CF8B4209B94D400275484 /* GraficoObjetivosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF8B2209B94D400275484 /* GraficoObjetivosTableViewCell.swift */; };
+		101CF8B5209B94D400275484 /* GraficoObjetivosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101CF8B3209B94D400275484 /* GraficoObjetivosTableViewCell.xib */; };
+		101CF8B9209B9A6700275484 /* HistoricoAcompTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF8B7209B9A6700275484 /* HistoricoAcompTableViewCell.swift */; };
+		101CF8BA209B9A6700275484 /* HistoricoAcompTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101CF8B8209B9A6700275484 /* HistoricoAcompTableViewCell.xib */; };
+		101CF8BE209B9DF100275484 /* CustomizarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CF8BC209B9DF100275484 /* CustomizarTableViewCell.swift */; };
+		101CF8BF209B9DF100275484 /* CustomizarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101CF8BD209B9DF100275484 /* CustomizarTableViewCell.xib */; };
+		10AD1F0120A11274002ACCB8 /* PopUPViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD1F0020A11273002ACCB8 /* PopUPViewViewController.swift */; };
+		EEADADB636D281BF3C5A299A /* Pods_CortanaMachineLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3B317859C16E5B8501379E /* Pods_CortanaMachineLearning.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		101197EF209CF15A00770997 /* PessoasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoasViewController.swift; sourceTree = "<group>"; };
+		101197F2209CF63A00770997 /* PessoasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoasTableViewCell.swift; sourceTree = "<group>"; };
+		101197F3209CF63A00770997 /* PessoasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PessoasTableViewCell.xib; sourceTree = "<group>"; };
 		101CF84F209A3CEC00275484 /* CortanaMachineLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CortanaMachineLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		101CF852209A3CEC00275484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		101CF854209A3CEC00275484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +77,30 @@
 		101CF871209A3CEE00275484 /* CortanaMachineLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CortanaMachineLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		101CF875209A3CEE00275484 /* CortanaMachineLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CortanaMachineLearningUITests.swift; sourceTree = "<group>"; };
 		101CF877209A3CEE00275484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		101CF887209A546400275484 /* MesesCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesesCellTableViewCell.swift; sourceTree = "<group>"; };
+		101CF888209A546400275484 /* MesesCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MesesCellTableViewCell.xib; sourceTree = "<group>"; };
+		101CF88C209A55FE00275484 /* SaudeFinanceiraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaudeFinanceiraTableViewCell.swift; sourceTree = "<group>"; };
+		101CF88D209A55FE00275484 /* SaudeFinanceiraTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaudeFinanceiraTableViewCell.xib; sourceTree = "<group>"; };
+		101CF890209A588D00275484 /* ResultadoMesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadoMesTableViewCell.swift; sourceTree = "<group>"; };
+		101CF891209A588D00275484 /* ResultadoMesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultadoMesTableViewCell.xib; sourceTree = "<group>"; };
+		101CF896209A952D00275484 /* RebimentoMesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebimentoMesTableViewCell.swift; sourceTree = "<group>"; };
+		101CF897209A952D00275484 /* RebimentoMesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RebimentoMesTableViewCell.xib; sourceTree = "<group>"; };
+		101CF89B209A96E700275484 /* CategoriasGastosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasGastosTableViewCell.swift; sourceTree = "<group>"; };
+		101CF89C209A96E700275484 /* CategoriasGastosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriasGastosTableViewCell.xib; sourceTree = "<group>"; };
+		101CF8A0209B48AB00275484 /* FicouComDuvidasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicouComDuvidasTableViewCell.swift; sourceTree = "<group>"; };
+		101CF8A1209B48AB00275484 /* FicouComDuvidasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FicouComDuvidasTableViewCell.xib; sourceTree = "<group>"; };
+		101CF8AD209B874700275484 /* HeadObjetivosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadObjetivosTableViewCell.swift; sourceTree = "<group>"; };
+		101CF8AE209B874700275484 /* HeadObjetivosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadObjetivosTableViewCell.xib; sourceTree = "<group>"; };
+		101CF8B2209B94D400275484 /* GraficoObjetivosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficoObjetivosTableViewCell.swift; sourceTree = "<group>"; };
+		101CF8B3209B94D400275484 /* GraficoObjetivosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraficoObjetivosTableViewCell.xib; sourceTree = "<group>"; };
+		101CF8B7209B9A6700275484 /* HistoricoAcompTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoAcompTableViewCell.swift; sourceTree = "<group>"; };
+		101CF8B8209B9A6700275484 /* HistoricoAcompTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoricoAcompTableViewCell.xib; sourceTree = "<group>"; };
+		101CF8BC209B9DF100275484 /* CustomizarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizarTableViewCell.swift; sourceTree = "<group>"; };
+		101CF8BD209B9DF100275484 /* CustomizarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomizarTableViewCell.xib; sourceTree = "<group>"; };
+		10AD1F0020A11273002ACCB8 /* PopUPViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUPViewViewController.swift; sourceTree = "<group>"; };
+		25FCD61700C1CEDA816E9378 /* Pods-CortanaMachineLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CortanaMachineLearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CortanaMachineLearning/Pods-CortanaMachineLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		5951335F74D0BFC658FD11FB /* Pods-CortanaMachineLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CortanaMachineLearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-CortanaMachineLearning/Pods-CortanaMachineLearning.release.xcconfig"; sourceTree = "<group>"; };
+		5F3B317859C16E5B8501379E /* Pods_CortanaMachineLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CortanaMachineLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEADADB636D281BF3C5A299A /* Pods_CortanaMachineLearning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +129,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		101197F1209CF36300770997 /* PessoasCells */ = {
+			isa = PBXGroup;
+			children = (
+				101197F2209CF63A00770997 /* PessoasTableViewCell.swift */,
+				101197F3209CF63A00770997 /* PessoasTableViewCell.xib */,
+			);
+			path = PessoasCells;
+			sourceTree = "<group>";
+		};
 		101CF846209A3CEC00275484 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +145,8 @@
 				101CF869209A3CEE00275484 /* CortanaMachineLearningTests */,
 				101CF874209A3CEE00275484 /* CortanaMachineLearningUITests */,
 				101CF850209A3CEC00275484 /* Products */,
+				626B9B710D0DBA349E0ED962 /* Pods */,
+				CC28374A94B387B1EDFCCF1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +163,13 @@
 		101CF851209A3CEC00275484 /* CortanaMachineLearning */ = {
 			isa = PBXGroup;
 			children = (
-				101CF852209A3CEC00275484 /* AppDelegate.swift */,
+				101197F1209CF36300770997 /* PessoasCells */,
+				101CF883209A53C500275484 /* MesCells */,
+				10AD1F0020A11273002ACCB8 /* PopUPViewViewController.swift */,
 				101CF854209A3CEC00275484 /* ViewController.swift */,
+				101197EF209CF15A00770997 /* PessoasViewController.swift */,
 				101CF856209A3CEC00275484 /* Main.storyboard */,
+				101CF852209A3CEC00275484 /* AppDelegate.swift */,
 				101CF85C209A3CEE00275484 /* Assets.xcassets */,
 				101CF85E209A3CEE00275484 /* LaunchScreen.storyboard */,
 				101CF861209A3CEE00275484 /* Info.plist */,
@@ -128,6 +196,130 @@
 			path = CortanaMachineLearningUITests;
 			sourceTree = "<group>";
 		};
+		101CF883209A53C500275484 /* MesCells */ = {
+			isa = PBXGroup;
+			children = (
+				101CF884209A543100275484 /* mesesCell */,
+				101CF88B209A55E600275484 /* SaudeFinanceiraCell */,
+				101CF894209A589500275484 /* ResultadoMes */,
+				101CF8BB209B9DDF00275484 /* Customizar */,
+				101CF8B6209B9A4800275484 /* AcompanhamentoHistorico */,
+				101CF8B1209B94BD00275484 /* GraficoObjetivos */,
+				101CF8A8209B4D4D00275484 /* HeadMeusObjetivos */,
+				101CF89F209B488700275484 /* FIcouComDuvidas */,
+				101CF89A209A96C500275484 /* CategoriasGastos */,
+				101CF895209A951C00275484 /* DetalhamentoMes */,
+			);
+			path = MesCells;
+			sourceTree = "<group>";
+		};
+		101CF884209A543100275484 /* mesesCell */ = {
+			isa = PBXGroup;
+			children = (
+				101CF887209A546400275484 /* MesesCellTableViewCell.swift */,
+				101CF888209A546400275484 /* MesesCellTableViewCell.xib */,
+			);
+			path = mesesCell;
+			sourceTree = "<group>";
+		};
+		101CF88B209A55E600275484 /* SaudeFinanceiraCell */ = {
+			isa = PBXGroup;
+			children = (
+				101CF88C209A55FE00275484 /* SaudeFinanceiraTableViewCell.swift */,
+				101CF88D209A55FE00275484 /* SaudeFinanceiraTableViewCell.xib */,
+			);
+			path = SaudeFinanceiraCell;
+			sourceTree = "<group>";
+		};
+		101CF894209A589500275484 /* ResultadoMes */ = {
+			isa = PBXGroup;
+			children = (
+				101CF890209A588D00275484 /* ResultadoMesTableViewCell.swift */,
+				101CF891209A588D00275484 /* ResultadoMesTableViewCell.xib */,
+			);
+			path = ResultadoMes;
+			sourceTree = "<group>";
+		};
+		101CF895209A951C00275484 /* DetalhamentoMes */ = {
+			isa = PBXGroup;
+			children = (
+				101CF896209A952D00275484 /* RebimentoMesTableViewCell.swift */,
+				101CF897209A952D00275484 /* RebimentoMesTableViewCell.xib */,
+			);
+			path = DetalhamentoMes;
+			sourceTree = "<group>";
+		};
+		101CF89A209A96C500275484 /* CategoriasGastos */ = {
+			isa = PBXGroup;
+			children = (
+				101CF89B209A96E700275484 /* CategoriasGastosTableViewCell.swift */,
+				101CF89C209A96E700275484 /* CategoriasGastosTableViewCell.xib */,
+			);
+			path = CategoriasGastos;
+			sourceTree = "<group>";
+		};
+		101CF89F209B488700275484 /* FIcouComDuvidas */ = {
+			isa = PBXGroup;
+			children = (
+				101CF8A0209B48AB00275484 /* FicouComDuvidasTableViewCell.swift */,
+				101CF8A1209B48AB00275484 /* FicouComDuvidasTableViewCell.xib */,
+			);
+			path = FIcouComDuvidas;
+			sourceTree = "<group>";
+		};
+		101CF8A8209B4D4D00275484 /* HeadMeusObjetivos */ = {
+			isa = PBXGroup;
+			children = (
+				101CF8AD209B874700275484 /* HeadObjetivosTableViewCell.swift */,
+				101CF8AE209B874700275484 /* HeadObjetivosTableViewCell.xib */,
+			);
+			path = HeadMeusObjetivos;
+			sourceTree = "<group>";
+		};
+		101CF8B1209B94BD00275484 /* GraficoObjetivos */ = {
+			isa = PBXGroup;
+			children = (
+				101CF8B2209B94D400275484 /* GraficoObjetivosTableViewCell.swift */,
+				101CF8B3209B94D400275484 /* GraficoObjetivosTableViewCell.xib */,
+			);
+			path = GraficoObjetivos;
+			sourceTree = "<group>";
+		};
+		101CF8B6209B9A4800275484 /* AcompanhamentoHistorico */ = {
+			isa = PBXGroup;
+			children = (
+				101CF8B7209B9A6700275484 /* HistoricoAcompTableViewCell.swift */,
+				101CF8B8209B9A6700275484 /* HistoricoAcompTableViewCell.xib */,
+			);
+			path = AcompanhamentoHistorico;
+			sourceTree = "<group>";
+		};
+		101CF8BB209B9DDF00275484 /* Customizar */ = {
+			isa = PBXGroup;
+			children = (
+				101CF8BC209B9DF100275484 /* CustomizarTableViewCell.swift */,
+				101CF8BD209B9DF100275484 /* CustomizarTableViewCell.xib */,
+			);
+			path = Customizar;
+			sourceTree = "<group>";
+		};
+		626B9B710D0DBA349E0ED962 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25FCD61700C1CEDA816E9378 /* Pods-CortanaMachineLearning.debug.xcconfig */,
+				5951335F74D0BFC658FD11FB /* Pods-CortanaMachineLearning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC28374A94B387B1EDFCCF1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F3B317859C16E5B8501379E /* Pods_CortanaMachineLearning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +327,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 101CF87A209A3CEE00275484 /* Build configuration list for PBXNativeTarget "CortanaMachineLearning" */;
 			buildPhases = (
+				4863CDC02E16978A13A1876D /* [CP] Check Pods Manifest.lock */,
 				101CF84B209A3CEC00275484 /* Sources */,
 				101CF84C209A3CEC00275484 /* Frameworks */,
 				101CF84D209A3CEC00275484 /* Resources */,
+				0CA611E98261EE1CE6190260 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +426,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101CF89E209A96E700275484 /* CategoriasGastosTableViewCell.xib in Resources */,
 				101CF860209A3CEE00275484 /* LaunchScreen.storyboard in Resources */,
+				101CF8B0209B874800275484 /* HeadObjetivosTableViewCell.xib in Resources */,
+				101CF8B5209B94D400275484 /* GraficoObjetivosTableViewCell.xib in Resources */,
+				101CF899209A952D00275484 /* RebimentoMesTableViewCell.xib in Resources */,
+				101CF88F209A55FE00275484 /* SaudeFinanceiraTableViewCell.xib in Resources */,
 				101CF85D209A3CEE00275484 /* Assets.xcassets in Resources */,
+				101CF893209A588D00275484 /* ResultadoMesTableViewCell.xib in Resources */,
+				101CF8BA209B9A6700275484 /* HistoricoAcompTableViewCell.xib in Resources */,
+				101CF8BF209B9DF100275484 /* CustomizarTableViewCell.xib in Resources */,
+				101197F5209CF63A00770997 /* PessoasTableViewCell.xib in Resources */,
+				101CF8A3209B48AB00275484 /* FicouComDuvidasTableViewCell.xib in Resources */,
 				101CF858209A3CEC00275484 /* Main.storyboard in Resources */,
+				101CF88A209A546400275484 /* MesesCellTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +459,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CA611E98261EE1CE6190260 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CortanaMachineLearning/Pods-CortanaMachineLearning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ExpandableCell/ExpandableCell.framework",
+				"${BUILT_PRODUCTS_DIR}/RKPieChart/RKPieChart.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExpandableCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RKPieChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CortanaMachineLearning/Pods-CortanaMachineLearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4863CDC02E16978A13A1876D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CortanaMachineLearning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		101CF84B209A3CEC00275484 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,7 +515,20 @@
 			files = (
 				101CF855209A3CEC00275484 /* ViewController.swift in Sources */,
 				101CF85B209A3CEC00275484 /* CortanaMachineLearning.xcdatamodeld in Sources */,
+				101CF898209A952D00275484 /* RebimentoMesTableViewCell.swift in Sources */,
+				101197F0209CF15A00770997 /* PessoasViewController.swift in Sources */,
+				10AD1F0120A11274002ACCB8 /* PopUPViewViewController.swift in Sources */,
+				101CF8BE209B9DF100275484 /* CustomizarTableViewCell.swift in Sources */,
+				101CF88E209A55FE00275484 /* SaudeFinanceiraTableViewCell.swift in Sources */,
+				101CF89D209A96E700275484 /* CategoriasGastosTableViewCell.swift in Sources */,
+				101CF8B9209B9A6700275484 /* HistoricoAcompTableViewCell.swift in Sources */,
+				101197F4209CF63A00770997 /* PessoasTableViewCell.swift in Sources */,
 				101CF853209A3CEC00275484 /* AppDelegate.swift in Sources */,
+				101CF889209A546400275484 /* MesesCellTableViewCell.swift in Sources */,
+				101CF8A2209B48AB00275484 /* FicouComDuvidasTableViewCell.swift in Sources */,
+				101CF8B4209B94D400275484 /* GraficoObjetivosTableViewCell.swift in Sources */,
+				101CF892209A588D00275484 /* ResultadoMesTableViewCell.swift in Sources */,
+				101CF8AF209B874700275484 /* HeadObjetivosTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +699,7 @@
 		};
 		101CF87B209A3CEE00275484 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25FCD61700C1CEDA816E9378 /* Pods-CortanaMachineLearning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +717,7 @@
 		};
 		101CF87C209A3CEE00275484 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5951335F74D0BFC658FD11FB /* Pods-CortanaMachineLearning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

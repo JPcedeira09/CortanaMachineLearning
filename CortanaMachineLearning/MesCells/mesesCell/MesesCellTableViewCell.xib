@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MesesCellTableViewCell" id="KGk-i7-Jjw" customClass="MesesCellTableViewCell" customModule="CortanaMachineLearning" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvS-aA-luc">
+                        <rect key="frame" x="0.0" y="0.0" width="105" height="44"/>
+                        <state key="normal" title="Abril/18">
+                            <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUf-Rb-aPz">
+                        <rect key="frame" x="107" y="0.0" width="105.5" height="44"/>
+                        <state key="normal" title="Maio/18">
+                            <color key="titleColor" red="0.0" green="0.73725490196078436" blue="0.75686274509803919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kw-z2-4QR">
+                        <rect key="frame" x="214.5" y="0.0" width="105.5" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="YBg-EZ-fkJ"/>
+                        </constraints>
+                        <state key="normal" title="Junho/18">
+                            <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8kw-z2-4QR" firstAttribute="width" secondItem="IUf-Rb-aPz" secondAttribute="width" id="22B-Hn-sJ8"/>
+                    <constraint firstItem="8kw-z2-4QR" firstAttribute="centerY" secondItem="IUf-Rb-aPz" secondAttribute="centerY" id="96A-lj-vJX"/>
+                    <constraint firstItem="IUf-Rb-aPz" firstAttribute="leading" secondItem="MvS-aA-luc" secondAttribute="trailing" constant="2" id="Bdb-An-Jdc"/>
+                    <constraint firstAttribute="trailing" secondItem="8kw-z2-4QR" secondAttribute="trailing" id="FcV-I1-htS"/>
+                    <constraint firstItem="MvS-aA-luc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="GNM-Ng-ole"/>
+                    <constraint firstAttribute="bottom" secondItem="MvS-aA-luc" secondAttribute="bottom" id="SER-QT-ZaW"/>
+                    <constraint firstItem="IUf-Rb-aPz" firstAttribute="height" secondItem="MvS-aA-luc" secondAttribute="height" id="aQW-7L-yGY"/>
+                    <constraint firstItem="8kw-z2-4QR" firstAttribute="height" secondItem="IUf-Rb-aPz" secondAttribute="height" id="ffN-7o-YIV"/>
+                    <constraint firstItem="MvS-aA-luc" firstAttribute="width" secondItem="IUf-Rb-aPz" secondAttribute="width" id="g0n-kJ-yni"/>
+                    <constraint firstItem="IUf-Rb-aPz" firstAttribute="centerY" secondItem="MvS-aA-luc" secondAttribute="centerY" id="jhJ-dA-G32"/>
+                    <constraint firstItem="MvS-aA-luc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="k9w-kn-hMU"/>
+                    <constraint firstItem="8kw-z2-4QR" firstAttribute="leading" secondItem="IUf-Rb-aPz" secondAttribute="trailing" constant="2" id="ogV-KU-MfN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mesAnterior" destination="MvS-aA-luc" id="5kA-Oh-zHU"/>
+                <outlet property="mesAtual" destination="8kw-z2-4QR" id="lha-fS-Pv6"/>
+                <outlet property="mesFuturo" destination="8kw-z2-4QR" id="FrV-sd-4pH"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
